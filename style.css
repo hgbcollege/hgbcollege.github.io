@@ -333,3 +333,16 @@ nav a:hover {
 .gallery img:hover {
     transform: scale(1.03);
 }
+/* FOOTER */
+
+.footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+}
