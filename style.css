@@ -156,3 +156,25 @@ nav a:hover {
 .program-card:hover {
     transform: translateY(-5px);
 }
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .school-banner {
+        height: 220px;
+    }
+
+    .program-container {
+        grid-template-columns: 1fr;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+}
