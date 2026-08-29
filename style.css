@@ -214,3 +214,75 @@ nav a:hover {
 .page-content li {
     margin: 12px 0;
 }
+/* WELCOME SECTION */
+
+.welcome-section {
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.welcome-section h2 {
+    font-size: 32px;
+}
+
+
+/* ANNOUNCEMENT */
+
+.announcement {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px 30px;
+    background: #eaf2ff;
+    border-left: 6px solid #1e3a8a;
+    border-radius: 8px;
+}
+
+.announcement h2 {
+    color: #1e3a8a;
+}
+
+
+/* NEWS */
+
+.news-section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.news-section > h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.news-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.news-card h3 {
+    color: #1e3a8a;
+}
+
+.news-card p {
+    line-height: 1.6;
+}
+
+.news-card a {
+    color: #1e3a8a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-card a:hover {
+    text-decoration: underline;
+}
