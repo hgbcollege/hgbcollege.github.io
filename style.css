@@ -132,3 +132,27 @@ nav a:hover {
     object-fit: cover;
     display: block;
 }
+/* PROGRAM CARDS */
+
+.program-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.program-card {
+    background: #f4f4f4;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.program-card h3 {
+    color: #1e3a8a;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+}
