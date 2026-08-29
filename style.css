@@ -178,3 +178,39 @@ nav a:hover {
     }
 
 }
+/* PAGE CONTENT */
+
+.page-content {
+    background: white;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 12px;
+    min-height: 400px;
+}
+
+.page-content h2 {
+    color: #1e3a8a;
+    margin-top: 25px;
+}
+
+.page-content p {
+    line-height: 1.7;
+}
+
+
+/* CONTACT CARD */
+
+.contact-card {
+    background: #f4f4f4;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+/* LISTS */
+
+.page-content li {
+    margin: 12px 0;
+}
